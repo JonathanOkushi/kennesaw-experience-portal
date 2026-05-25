@@ -18,7 +18,7 @@ embeddings_model = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
 # Initialize Groq LLM
 llm = ChatGroq(
     model_name="llama-3.3-70b-versatile",
-    temperature=1
+    temperature=0
 )
 
 # connect to the chromadb
