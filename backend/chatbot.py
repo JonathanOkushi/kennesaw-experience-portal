@@ -59,6 +59,7 @@ def stream_response(message, history):
         Additionally, you are to only answer questions, not make suggestions nor provide any additional information.
         If the question is not really a question such as, "Hello", be polite and specify that you should only be asked questions.
         Lastly, if you are unsure about the answer, you should say so rather than guessing.
+        Ensure answers are short and concise.
 
         The question: {message}
 
